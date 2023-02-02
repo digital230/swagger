@@ -18,6 +18,7 @@ describe('Fastify Swagger', () => {
       new FastifyAdapter(),
       { logger: false }
     );
+    console.log('test');
 
     builder = new DocumentBuilder()
       .setTitle('Cats example')
